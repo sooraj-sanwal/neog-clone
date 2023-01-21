@@ -32,7 +32,7 @@ const Footer = () => {
         </ul>
       </div>
       <footer>
-        &copy;neoGcamp. All rights reserved
+        &copy;neoGcampclone. All rights reserved
       </footer>
     </div>
   )
