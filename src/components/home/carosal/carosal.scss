@@ -1,0 +1,77 @@
+.image{
+    display: flex;
+    align-items: center;
+    margin: 3rem auto;
+
+    .img{
+     margin: auto;
+    }
+}
+.text{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    white-space: pre;
+
+    h1{
+        font-size: 3rem;
+        margin-bottom: 0;
+    }
+    p{
+        color: rgb(118, 125, 134);
+    }
+    .carosoulbtn{
+        padding: 1rem 2rem;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        background-color:  #49a0eb;
+
+        a{
+            color: white;
+        }
+    }
+}
+
+// media querry medium divices
+
+@media screen and (max-width: 780px) {
+    .image {
+      flex-direction: column-reverse;
+    }
+    .text{
+        h1{
+            font-size: 2rem;
+            margin-bottom: 0;
+        }
+      p{
+          padding: 0 1em ;
+      }
+      .carosoulbtn{
+        padding: .8rem 1.8rem;
+    }
+  }
+}
+
+// Mobile divices
+
+@media screen and (max-width: 480px) {
+    .image {
+      flex-direction: column-reverse;
+    }
+    .text{
+        h1{
+            font-size: 1rem;
+            margin-bottom: 0;
+        }
+        p{
+            text-align: center;
+font-size: x-small;
+        }
+        .carosoulbtn{
+            padding: .5rem 1.5rem;
+        }
+  }
+}

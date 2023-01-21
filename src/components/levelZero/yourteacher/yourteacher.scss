@@ -1,0 +1,140 @@
+.teacher {
+    width: 90%;
+    margin: 3rem auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+    >h1 {
+        text-align: center;
+        font-size: 2.5rem;
+        margin: 4rem;
+        color: #0d3344;
+    }
+
+}
+
+.teacherflex {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+    .tnayimg {
+        width: 30vw;
+        // object-fit: cover;
+        border-radius: 10px;
+        margin: 3rem;
+
+    }
+
+    .abttanay {
+        width: 50%;
+    }
+
+    h1 {
+        font-size: 3rem;
+        color: #0d3344;
+        margin-bottom: 0;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+        color: #0d3344;
+        margin-top: 0;
+    }
+
+    p {
+        color: #767d86;
+        text-align: left;
+    }
+}
+
+.teachericon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    padding: .5rem .5rem;
+    background-color: #0d3344ed;
+    border-radius: 10px;
+    margin: 2rem auto;
+
+    img {
+        width: 3vw;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+}
+
+// media querry for medium devices
+
+@media screen and (max-width: 766px) {
+
+    .techer {
+        h1 {
+            font-size: 2rem;
+        }
+    }
+
+    .teacherflex {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+
+        h1 {
+            font-size: 2rem;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+        }
+
+        >div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+
+            .tnayimg {
+                width: 60%;
+                height: 60%;
+                object-fit: contain;
+                margin: auto;
+            }
+        }
+
+        .abttanay {
+            width: 100%;
+        }
+
+        div {
+            p {
+                padding: 0 2rem;
+            }
+        }
+    }
+
+    .herotext {
+        text-align: center;
+    }
+
+    .hero2 {
+        flex-direction: column;
+    }
+
+    .subsection {
+        flex-direction: column;
+    }
+
+    .levelzerogrid {
+        div {
+            padding: 1rem 3rem;
+        }
+    }
+
+    .teachericon {
+        img {
+            width: 5vw;
+        }
+    }
+}

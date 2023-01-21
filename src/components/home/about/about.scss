@@ -1,0 +1,37 @@
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardslogo{
+    width: 90vw;
+    display: grid;
+    grid-template-columns:repeat(3,1fr) ;
+    row-gap: 3rem;
+    column-gap: 2rem;
+}
+.item{
+    margin-left: .5rem;
+    color: rgb(118, 125, 134);
+}
+.item h3{
+    margin-bottom: 1rem;
+    color: rgb(73, 160, 235);
+}
+
+// media querry medium devices
+
+@media screen and (max-width: 780px) {
+    .cardslogo {
+        grid-template-columns:repeat(2,1fr) ;
+    }
+  }
+
+   // media querry small devices
+  
+   @media screen and (max-width: 480px) {
+    .cardslogo {
+        grid-template-columns:repeat(1,1fr) ;
+    }
+}

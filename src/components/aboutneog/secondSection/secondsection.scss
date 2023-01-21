@@ -1,0 +1,39 @@
+.secondiv{
+    width: 90%;
+    margin: 2rem auto;
+
+    h3{
+        color: #49a0eb;
+        margin-bottom: 0;
+    }
+    p{
+        margin-top: 0;
+    }
+}
+
+// media querry for medium devices
+
+@media screen and (max-width: 766px) {
+    .secondiv{
+        h3{
+            font-size: medium;
+        }
+        p{
+            font-size: medium;
+        }
+    }
+   }
+
+//    // media querry small devices
+  
+   @media screen and (max-width: 480px) {
+    .firstsection{
+        h3{
+            font-size: small;
+        }
+        p{
+            font-size: small;
+        }
+
+    }
+  }

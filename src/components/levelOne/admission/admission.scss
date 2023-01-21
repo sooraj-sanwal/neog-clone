@@ -1,0 +1,180 @@
+.Admission {
+    width: 90%;
+    margin: 3rem auto;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 10px;
+
+    h1 {
+        color: #0d3344;
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    sub {
+        font-size: 1rem;
+        font-weight: lighter;
+    }
+}
+
+.feesflex {
+    display: flex;
+
+    div {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    h4 {
+        margin: 0;
+    }
+
+    .rupeeflex {
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        div {
+            display: flex;
+            justify-content: flex-start;
+        }
+
+    }
+
+    p {
+        font-size: .8rem;
+        margin: 0;
+    }
+
+}
+
+.admissionex {
+    margin: 0 .5rem !important;
+    border-left: 2px solid #49a0eb;
+    padding: 2rem;
+
+    img {
+        width: 2vw;
+    }
+}
+
+.timing {
+    width: 90%;
+    margin: 3rem auto;
+
+    h1 {
+        color: #0d3344;
+        text-align: center;
+        font-size: 3rem;
+    }
+}
+
+.levelonetiming {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    div {
+        padding: 2.5rem;
+        text-align: center;
+        border-right: 1px solid #d9eaf9;
+
+        &:hover {
+            border-bottom: 2px solid #49a0eb;
+        }
+    }
+
+    .noborder {
+        border-right: none;
+    }
+}
+
+// media querry for medium devices
+
+@media screen and (max-width: 766px) {
+    .Admission {
+        h1 {
+            font-size: 2rem;
+        }
+
+        sub {
+            font-size: .8rem;
+        }
+    }
+
+    .feesflex {
+        display: flex;
+        flex-direction: column;
+
+        div {
+            margin: 1rem;
+        }
+
+        p {
+            font-size: .8rem;
+            margin: 0;
+        }
+
+    }
+
+    .admissionex {
+        border-top: 2px solid #49a0eb;
+        border-left: none;
+        padding: 2rem;
+    }
+
+    .timing {
+        margin: 2rem auto;
+
+        h1 {
+            font-size: 2rem;
+        }
+    }
+
+    .levelonetiming {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+//    // media querry small devices
+
+@media screen and (max-width: 550px) {
+    .Admission {
+        h1 {
+            font-size: 1.5rem;
+        }
+
+        sub {
+            font-size: .6rem;
+        }
+    }
+
+    .feesflex {
+        div {
+            margin: 1rem;
+        }
+
+        p {
+            font-size: .7rem;
+        }
+
+    }
+
+    .timing {
+        margin: 2rem auto;
+
+        h1 {
+            font-size: 1.5rem;
+        }
+    }
+
+    .levelonetiming {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    div {
+        padding: 1rem;
+}
+    }
+}
