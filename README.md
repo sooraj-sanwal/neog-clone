@@ -6,6 +6,10 @@ A clone of the neog.camp website built using HTML, JavaScript, CSS, SCSS, and Re
 
 ## https://neogcamp-clone.netlify.app/
 
+
+![neog-gif](https://user-images.githubusercontent.com/37466996/213863874-1bb08f58-9738-4aec-bc61-dd968c0f22e2.gif)
+
+
 # Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
